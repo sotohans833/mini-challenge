@@ -14,4 +14,4 @@ Also, I used **hooks and context API** to make the code more readeable.
 
 .
 
-## This project is made with ❤ by **@leninner**
+## This project is made with ❤ by **HANS DAVID MANOTAS SOTO**

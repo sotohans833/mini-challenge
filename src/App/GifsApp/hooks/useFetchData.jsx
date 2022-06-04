@@ -7,7 +7,7 @@ export const useFetchData = (search) => {
   const fetchData = async () => {
     setDatos({ ...datos, loading: true });
     const response = await axios.get(
-      `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${encodeURI(search)}&limit=10`
+      `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${encodeURI(search)}`
     );
 
     return response;
